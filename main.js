@@ -1,3 +1,5 @@
+// CLick button on home page thast takes you to form submission page #2
+
 let arr = [];
 let index = 0;
 
@@ -17,8 +19,6 @@ function formSubmitEvent() {
 	
 }
 
-
-
 function formSubmitEvent2() 
 {
 	let displayathlete = document.getElementById("display1");
@@ -34,6 +34,9 @@ function formSubmitEvent2()
 	displayathlete.innerHTML = str;
 
 }
+
+
+// On 4th Page display only clicked athelte. Name, rating and bio.
 
 
 var athleteObj = function (athelte, rating, bio) {
